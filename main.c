@@ -16,7 +16,7 @@ int main()
 
    for (nombre = 1; nombre < 100; nombre++)
    {
-       if (MODULO_RIEN(nombre)==1){printf("%d\n",nombre);}else{printf("%s%s%s\n",MODULO_DEUX(nombre),MODULO_TROIS(nombre),MODULO_CINQ(nombre));}
+        printf("%d %s%s%s\n",nombre,MODULO_DEUX(nombre),MODULO_TROIS(nombre),MODULO_CINQ(nombre));
    }
 
     return 0;
